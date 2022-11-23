@@ -1,5 +1,5 @@
 import Main from "./Main"
-// import Example from "./example"
+import Example from "./example"
 
 function App(){
     return(
