@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 18px;
+}
+body{
+    background-color: antiquewhite;
+    /* max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; */
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-60{
+    flex: 0 1 60%;
+}
+.flex-30{
+    flex: 0 1 30% ;
+}
+.flex-40{
+    flex: 0 1 40%;
+}
+.flex-45{
+    flex: 0 1 47%;
+}
+.main{
+    display: flex;
+}
+.center{
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 auto;
+    align-items: flex-start;
+    background-color: white;
+}
+img{
+    width: 100%;
+    height: 100vh;
+}
+.tabimg{
+    width: 100%;
+    height: 60vh;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 4rem;
+    color: #0D4F86;
+}
+p{
+    font-size: .9rem;
+    line-height: 2rem;
+    color: #0D4F86;
+}
+.main-content{
+    margin: 50px auto;
+}
+.enter-btn{
+    background-color: #0D4F86;
+    color: white;
+    border: none;
+   width: 100%;
+   padding: 20px;
+   border-radius: 30px;
+   font-size: 1.5rem;
+   margin-top: 50px;
+}
+.module-btn{
+    width: 100%;
+    max-width: 1200px;
+    margin: 80px auto;
+}
+button{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    border-bottom:1px solid gray ;
+    padding-bottom: 30px;
+    text-align: left;
+    color: #0D4F86;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.tab-block{
+    margin: 0 auto;
+    display: flex;
+    /* flex: 0 1 50%; */
+    justify-content: center;
+    width: 66%;
+    border-bottom: 3px solid gray;
+}
+
+.tab{
+ width: 100%;
+ background-color: #0D4F86;
+ text-align: center;
+ margin: 0 1px;
+ color: white;
+ padding: 24px 0;
+ font-size: 1.5rem;
+ font-weight: 800;
+}
+.untab{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin: 0 1px;
+    color: #0D4F86;
+    padding: 26px 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+article{
+    line-height: 2rem;
+    color: #B0B0B0;
+    font-size: 1.1rem;
+}
+h2{
+    color: #0D4F86;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 2rem;
+    color: #0D4F86;
+    margin: 50px 0;
+
+}
+.header{
+    margin: 0 auto;
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back-btn{
+    color: #0D4F86;
+    cursor: pointer;
+}
+.home-btn{
+    text-align: right;
+}
+
+
+
+/* const newStringofNums = "1,3,545,6767,8,9-9,9994_33$$33,33!334";
+// We need a sum of all the numbers
+
+
+
+// Challenge #2 - https://gorest.co.in/public/v2/users
+// We need to check the number of male and female users in both active aswell as inactive status
+// Using axios for fetching data is always preferred
+
+
+// React Challenge
+// You ahve to use Material UI to display the list of users that are fetched from the above API */
